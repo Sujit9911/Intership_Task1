@@ -19,7 +19,8 @@ Project Description
 
 This project is a Java-based console application developed to demonstrate basic file handling operations using a layered MVC (Model–View–Controller) architecture. The primary objective of this project is to help beginners understand how file operations can be structured in a professional manner while maintaining clean code practices and proper separation of concerns.
 
-The application is suitable for academic use, internships, and entry-level Java project submissions. It provides a simple yet effective way to learn Java file handling concepts using standard libraries and a structured architectural approach.
+The application is suitable for academic use, internships, and entry-level Java project submissions. It provides a simple yet effective way to learn Java file handling concepts using standard libraries and a structured architectural approach. 
+Output>>>>>[sample.txt](https://github.com/user-attachments/files/24994708/sample.txt)
 
 Features
 
