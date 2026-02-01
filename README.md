@@ -1,28 +1,70 @@
-*/File Handling Utility/*
-Company-Codtech It Solutions
-Name-Prathmesh Vijay Thakare
-Intern Id-CTIS2283
-Domain-Java Programming
-Duration-4weeks
-Mentor-Neela Santosh Kumar
-Description:This project is a Java-based console application developed to demonstrate basic file handling operations using a layered MVC (Model–View–Controller) architecture. The primary goal of this project is to help beginners understand how file operations can be structured in a professional way while maintaining clean code practices and proper separation of concerns. The application is suitable for academic use, internships, and entry-level Java project submissions.
+File Handling Utility
+Company
 
-The system allows users to perform essential file operations such as creating a file, writing data to a file, reading file contents, and updating (appending) data. These operations are performed through a menu-driven console interface, making the program easy to use and understand. All file-related tasks are implemented using standard Java libraries such as java.io and java.util, ensuring compatibility with basic Java environments.
+Codtech IT Solutions
 
-The project follows a three-layer architecture:
+Intern Details
 
-Controller Layer – Handles user interaction and input.
+Name: Prathmesh Vijay Thakare
 
-Service Layer – Contains business logic and acts as an intermediary.
+Intern ID: CTIS2283
 
-DAO (Data Access Object) Layer – Performs actual file read/write operations.
+Domain: Java Programming
 
-The Controller layer is responsible for accepting user choices from the console and forwarding them to the appropriate service methods. This layer ensures that user input handling is separated from business logic, which improves code readability and maintainability.
+Duration: 4 Weeks
 
-The Service layer acts as a bridge between the controller and DAO layers. It processes requests, applies basic logic if required, and forwards tasks to the DAO. This design makes the application modular and scalable, allowing future enhancements such as validation, logging, or file encryption without modifying the controller.
+Mentor: Neela Santosh Kumar
 
-The DAO layer handles all file-related operations, including file creation, writing, reading, and updating. Java’s File, FileWriter, and Scanner classes are used to perform these tasks efficiently. Proper exception handling using try-catch blocks ensures that runtime errors are handled gracefully and meaningful messages are displayed to the user.
+Project Description
 
-The application generates a text file (sample.txt) dynamically if it does not already exist. Users can enter custom text from the console, which is written or appended to the file as per their selected operation. File contents are displayed directly on the console when read, allowing users to verify their input instantly.
+This project is a Java-based console application developed to demonstrate basic file handling operations using a layered MVC (Model–View–Controller) architecture. The primary objective of this project is to help beginners understand how file operations can be structured in a professional manner while maintaining clean code practices and proper separation of concerns.
 
-This project demonstrates important Java concepts such as file handling, exception handling, packages, object-oriented design, and layered architecture. It is designed to be beginner-friendly while still reflecting real-world coding standards. Overall, this project serves as a strong foundation for understanding Java file operations and structured application development.
+The application is suitable for academic use, internships, and entry-level Java project submissions. It provides a simple yet effective way to learn Java file handling concepts using standard libraries and a structured architectural approach.
+
+Features
+
+Create a file if it does not exist
+
+Write data to a file
+
+Read data from a file
+
+Update (append) data to an existing file
+
+Menu-driven console interface
+
+Proper exception handling
+
+Project Architecture
+
+The project follows a three-layer architecture to ensure modularity and maintainability.
+
+Controller Layer
+
+The Controller layer handles all user interactions. It accepts user input from the console, processes menu selections, and forwards requests to the Service layer. This separation ensures that user input handling is kept independent of business logic.
+
+Service Layer
+
+The Service layer acts as an intermediary between the Controller and DAO layers. It contains the business logic of the application and ensures smooth communication between user requests and data operations. This design makes the application scalable and easier to maintain.
+
+DAO (Data Access Object) Layer
+
+The DAO layer is responsible for performing all file-related operations. It handles file creation, writing, reading, and updating using Java’s File, FileWriter, and Scanner classes. Exception handling using try-catch blocks ensures that runtime errors are handled gracefully.
+
+File Handling Operations
+
+The application dynamically creates a text file named sample.txt if it does not already exist. Users can enter custom text from the console, which can be written or appended to the file based on the selected operation. File contents are displayed directly on the console when read, allowing users to verify their data easily.
+
+Technologies Used
+
+Java
+
+Java IO Package
+
+Java Util Package
+
+Object-Oriented Programming Concepts
+
+Conclusion
+
+This project demonstrates important Java concepts such as file handling, exception handling, packages, object-oriented design, and layered architecture. It is designed to be beginner-friendly while still following real-world coding standards. Overall, this project serves as a strong foundation for understanding structured Java application development and file handling mechanisms.
